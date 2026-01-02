@@ -84,24 +84,21 @@ void loop() {
 
 ```
 ietp/
-├── public/
-│   └── index.html
+├── QUICK_START.md                    
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── node_modules/
 ├── src/
 │   ├── components/
-│   │   ├── ControlPanel.js       # Main control panel component
-│   │   ├── ControlPanel.css
-│   │   ├── AlertIndicator.js     # Visual alert component
-│   │   ├── AlertIndicator.css
-│   │   ├── HistoryPanel.js       # History display component
-│   │   └── HistoryPanel.css
+│   │   ├── ControlPanel.js          
+│   │   ├── AlertIndicator.js        
+│   │   └── ...
 │   ├── services/
-│   │   └── deviceAPI.js          # API communication service
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
-├── package.json
-└── README.md
+│   │   └── deviceAPI.js            
+│   └── ...
+├── package.json                     
+└── ...
 ```
 
 ## Features Explained
