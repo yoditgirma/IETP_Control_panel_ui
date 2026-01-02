@@ -19,8 +19,14 @@ A real-time web-based control panel for monitoring smart home sensors (doorbell 
 # Install dependencies
 npm install
 
+# Navigate to backend folder first
+cd ietp/backend
+npm run dev
+
 # Start development server
+cd ietp
 npm start
+
 ```
 
 The app will open at `http://localhost:3000`
